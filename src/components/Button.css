@@ -1,4 +1,4 @@
-.custom-button {
+custom-button {
     background-color: #4caf50;
     color: white;
     border: none;
@@ -6,7 +6,15 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 .custom-button:hover {
     background-color: #45a049;
+}
+.custom-button.clicked {
+    background-color: #2196f3;
+}
+
+.custom-button.clicked:hover {
+    background-color: #1976d2;
 }
